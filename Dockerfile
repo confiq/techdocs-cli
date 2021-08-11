@@ -13,4 +13,4 @@ RUN echo $'#!/bin/sh\n\njava -jar '/opt/plantuml.jar' ${@}' >> /usr/local/bin/pl
 RUN chmod 755 /usr/local/bin/plantuml
 
 
-ENTRYPOINT [ "mkdocs" ]
+CMD [ "mkdocs" ]
