@@ -2,7 +2,7 @@
 
 Docker image for running backstage [techdocs-cli](https://backstage.io/docs/features/techdocs/configuring-ci-cd) for generating mkdocs
 
-## pulumi
+## GCP cloudbuild & pulumi
 
 This is how to configure it in pulumi python
 
